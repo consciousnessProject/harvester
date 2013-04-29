@@ -1,0 +1,7 @@
+{
+    "dust": {
+        "renderHelpers": [
+            "dust-express-layout"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+<div class="greeting">
+    <form method="post" action="/feed">
+        <label><input type="text" name="name"/></label><br/><label><input type="url" name="source"/></label>
+        <input type="submit"/>
+    </form>
+</div>

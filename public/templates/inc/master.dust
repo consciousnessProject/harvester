@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <title>Untitled</title>
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="contents">
+            {>"{_main}"/}
+        </div>
+
+    </div>
+    <script data-main="js/main" src="js/lib/require-2.0.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "node-feed",
+  "description": "A Webcore application.",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.8.x"
+  },
+  "webcore": {
+    "version": "0.0.1"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon .",
+    "debug": "./node_modules/.bin/nodemon --debug ."
+  },
+  "dependencies": {
+    "async": "0.1.x",
+    "express": "3.0.x",
+    "nodemon": "0.6.x",
+    "webcore": "git://github.paypal.com/CoreUIE/node-webcore.git#latest"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "bundledDependencies": [
+    "webcore"
+  ]
+}

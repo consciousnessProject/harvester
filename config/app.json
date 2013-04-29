@@ -1,0 +1,18 @@
+{
+    "port": 8000,
+    "monPort": 8001,
+    "paths": {
+        "resourceRoot": "public",
+        "staticRoot": ".build",
+        "viewPath": "public/templates",
+        "routeRoot": "controllers",
+        "modelRoot": "models"
+    },
+    "dust": {
+        "extensions": [],
+        "renderHelpers": [
+            "dust-cache-buster",
+            "dust-express-layout"
+        ]
+    }
+}
