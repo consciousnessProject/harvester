@@ -1,0 +1,251 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose read json /Users/nobodynowhere/projects/consciousnessProject/harvester/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/nobodynowhere/projects/consciousnessProject/harvester',
+6 verbose install   [ 'async', 'express', 'nodemon', 'webcore', 'mocha', 'should' ] ]
+7 verbose from cache /Users/nobodynowhere/projects/consciousnessProject/harvester/package.json
+8 info preinstall node-feed@0.0.1
+9 verbose from cache /Users/nobodynowhere/projects/consciousnessProject/harvester/package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'express@3.0.x', null ]
+12 verbose cache add name=undefined spec="express@3.0.x" args=["express@3.0.x",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express@3.0.x',
+13 verbose parsed url   path: 'express@3.0.x',
+13 verbose parsed url   href: 'express@3.0.x' }
+14 verbose cache add name="express" spec="3.0.x" args=["express","3.0.x"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '3.0.x',
+15 verbose parsed url   path: '3.0.x',
+15 verbose parsed url   href: '3.0.x' }
+16 verbose addNamed [ 'express', '3.0.x' ]
+17 verbose addNamed [ null, '>=3.0.0- <3.1.0-' ]
+18 verbose cache add [ 'webcore@git://github.paypal.com/CoreUIE/node-webcore.git#latest',
+18 verbose cache add   null ]
+19 verbose cache add name=undefined spec="webcore@git://github.paypal.com/CoreUIE/node-webcore.git#latest" args=["webcore@git://github.paypal.com/CoreUIE/node-webcore.git#latest",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: '#latest',
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'webcore@git://github.paypal.com/CoreUIE/node-webcore.git',
+20 verbose parsed url   path: 'webcore@git://github.paypal.com/CoreUIE/node-webcore.git',
+20 verbose parsed url   href: 'webcore@git://github.paypal.com/CoreUIE/node-webcore.git#latest' }
+21 verbose cache add name="webcore" spec="git://github.paypal.com/CoreUIE/node-webcore.git#latest" args=["webcore","git://github.paypal.com/CoreUIE/node-webcore.git#latest"]
+22 verbose parsed url { protocol: 'git:',
+22 verbose parsed url   slashes: true,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: 'github.paypal.com',
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: 'github.paypal.com',
+22 verbose parsed url   hash: '#latest',
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '/CoreUIE/node-webcore.git',
+22 verbose parsed url   path: '/CoreUIE/node-webcore.git',
+22 verbose parsed url   href: 'git://github.paypal.com/CoreUIE/node-webcore.git#latest' }
+23 verbose cache add [ 'nodemon@0.6.x', null ]
+24 verbose cache add name=undefined spec="nodemon@0.6.x" args=["nodemon@0.6.x",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'nodemon@0.6.x',
+25 verbose parsed url   path: 'nodemon@0.6.x',
+25 verbose parsed url   href: 'nodemon@0.6.x' }
+26 verbose cache add name="nodemon" spec="0.6.x" args=["nodemon","0.6.x"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '0.6.x',
+27 verbose parsed url   path: '0.6.x',
+27 verbose parsed url   href: '0.6.x' }
+28 verbose addNamed [ 'nodemon', '0.6.x' ]
+29 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+30 verbose cache add [ 'mocha@*', null ]
+31 verbose cache add name=undefined spec="mocha@*" args=["mocha@*",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'mocha@*',
+32 verbose parsed url   path: 'mocha@*',
+32 verbose parsed url   href: 'mocha@*' }
+33 verbose cache add name="mocha" spec="*" args=["mocha","*"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '*',
+34 verbose parsed url   path: '*',
+34 verbose parsed url   href: '*' }
+35 verbose addNamed [ 'mocha', '*' ]
+36 verbose addNamed [ null, '' ]
+37 silly lockFile b0465bbd-express-3-0-x express@3.0.x
+38 verbose lock express@3.0.x /Users/nobodynowhere/.npm/b0465bbd-express-3-0-x.lock
+39 verbose cache add [ 'should@*', null ]
+40 verbose cache add name=undefined spec="should@*" args=["should@*",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'should@*',
+41 verbose parsed url   path: 'should@*',
+41 verbose parsed url   href: 'should@*' }
+42 verbose cache add name="should" spec="*" args=["should","*"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '*',
+43 verbose parsed url   path: '*',
+43 verbose parsed url   href: '*' }
+44 verbose addNamed [ 'should', '*' ]
+45 verbose addNamed [ null, '' ]
+46 silly lockFile 987f4939-should should@*
+47 verbose lock should@* /Users/nobodynowhere/.npm/987f4939-should.lock
+48 verbose cache add [ 'async@0.1.x', null ]
+49 verbose cache add name=undefined spec="async@0.1.x" args=["async@0.1.x",null]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'async@0.1.x',
+50 verbose parsed url   path: 'async@0.1.x',
+50 verbose parsed url   href: 'async@0.1.x' }
+51 verbose cache add name="async" spec="0.1.x" args=["async","0.1.x"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '0.1.x',
+52 verbose parsed url   path: '0.1.x',
+52 verbose parsed url   href: '0.1.x' }
+53 verbose addNamed [ 'async', '0.1.x' ]
+54 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+55 silly lockFile 463e1c03-async-0-1-x async@0.1.x
+56 verbose lock async@0.1.x /Users/nobodynowhere/.npm/463e1c03-async-0-1-x.lock
+57 silly lockFile 4f23c410-nodemon-0-6-x nodemon@0.6.x
+58 verbose lock nodemon@0.6.x /Users/nobodynowhere/.npm/4f23c410-nodemon-0-6-x.lock
+59 silly addNameRange { name: 'express', range: '>=3.0.0- <3.1.0-', hasData: false }
+60 silly lockFile a55d793f--CoreUIE-node-webcore-git-latest git://github.paypal.com/CoreUIE/node-webcore.git#latest
+61 verbose lock git://github.paypal.com/CoreUIE/node-webcore.git#latest /Users/nobodynowhere/.npm/a55d793f--CoreUIE-node-webcore-git-latest.lock
+62 silly addNameRange { name: 'should', range: '', hasData: false }
+63 silly lockFile 4d0fa87f-mocha mocha@*
+64 verbose lock mocha@* /Users/nobodynowhere/.npm/4d0fa87f-mocha.lock
+65 silly addNameRange { name: 'async', range: '>=0.1.0- <0.2.0-', hasData: false }
+66 silly addNameRange { name: 'nodemon', range: '>=0.6.0- <0.7.0-', hasData: false }
+67 verbose url raw express
+68 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+69 verbose url resolved https://registry.npmjs.org/express
+70 info trying registry request attempt 1 at 20:51:43
+71 http GET https://registry.npmjs.org/express
+72 verbose addRemoteGit [ 'git://github.paypal.com/CoreUIE/node-webcore.git', 'latest' ]
+73 verbose url raw should
+74 verbose url resolving [ 'https://registry.npmjs.org/', './should' ]
+75 verbose url resolved https://registry.npmjs.org/should
+76 info trying registry request attempt 1 at 20:51:43
+77 http GET https://registry.npmjs.org/should
+78 silly addNameRange { name: 'mocha', range: '', hasData: false }
+79 verbose url raw async
+80 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+81 verbose url resolved https://registry.npmjs.org/async
+82 info trying registry request attempt 1 at 20:51:43
+83 http GET https://registry.npmjs.org/async
+84 verbose url raw nodemon
+85 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+86 verbose url resolved https://registry.npmjs.org/nodemon
+87 info trying registry request attempt 1 at 20:51:43
+88 http GET https://registry.npmjs.org/nodemon
+89 verbose url raw mocha
+90 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+91 verbose url resolved https://registry.npmjs.org/mocha
+92 info trying registry request attempt 1 at 20:51:43
+93 http GET https://registry.npmjs.org/mocha
+94 silly exec git "clone" "--mirror" "git://github.paypal.com/CoreUIE/node-webcore.git" "/Users/nobodynowhere/.npm/_git-remotes/git-github-paypal-com-CoreUIE-node-webcore-git-ed9dc573"
+95 silly git,clone,--mirror,git://github.paypal.com/CoreUIE/node-webcore.git,/Users/nobodynowhere/.npm/_git-remotes/git-github-paypal-com-CoreUIE-node-webcore-git-ed9dc573, spawning
+96 error git clone git://github.paypal.com/CoreUIE/node-webcore.git Cloning into bare repository '/Users/nobodynowhere/.npm/_git-remotes/git-github-paypal-com-CoreUIE-node-webcore-git-ed9dc573'...
+96 error git clone git://github.paypal.com/CoreUIE/node-webcore.git
+96 error git clone git://github.paypal.com/CoreUIE/node-webcore.git fatal: Unable to look up github.paypal.com (port 9418) (nodename nor servname provided, or not known)
+97 silly lockFile ed9dc573-pal-com-CoreUIE-node-webcore-git git://github.paypal.com/CoreUIE/node-webcore.git
+98 error Error: `git "clone" "--mirror" "git://github.paypal.com/CoreUIE/node-webcore.git" "/Users/nobodynowhere/.npm/_git-remotes/git-github-paypal-com-CoreUIE-node-webcore-git-ed9dc573"` failed with 128
+98 error     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/exec.js:59:20)
+98 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+98 error     at maybeClose (child_process.js:730:16)
+98 error     at Socket.<anonymous> (child_process.js:943:11)
+98 error     at Socket.EventEmitter.emit (events.js:95:17)
+98 error     at Pipe.close (net.js:451:12)
+99 error If you need help, you may report this log at:
+99 error     <http://github.com/isaacs/npm/issues>
+99 error or email it to:
+99 error     <npm-@googlegroups.com>
+100 error System Darwin 12.3.0
+101 error command "node" "/usr/local/bin/npm" "install"
+102 error cwd /Users/nobodynowhere/projects/consciousnessProject/harvester
+103 error node -v v0.10.5
+104 error npm -v 1.2.18
+105 verbose exit [ 1, true ]
